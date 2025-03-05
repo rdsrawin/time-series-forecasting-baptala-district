@@ -1,22 +1,23 @@
-NDVI Forecasting for Bapatla District
-This repository contains a Jupyter Notebook for forecasting Normalized Difference Vegetation Index (NDVI) for Bapatla district. The project applies time series forecasting techniques to predict NDVI trends, which are useful for agricultural monitoring and environmental assessment.
+# NDVI Forecasting for Bapatla District
 
-Features
--Data Preprocessing: Handling missing values, smoothing, and feature engineering
--Forecasting Models: Implementing models such as ARIMA, LSTM, or Transformer-based methods
--Visualization: Graphical analysis of NDVI trends
--Performance Evaluation: Metrics like RMSE, MAE for accuracy assessment
+This repository contains a Jupyter Notebook for forecasting the **Normalized Difference Vegetation Index (NDVI)** for Bapatla district. The project leverages time series forecasting techniques to predict NDVI trends, aiding in agricultural planning and environmental analysis.
 
-Requirements
--Python 3.x
--TensorFlow / PyTorch
--Pandas, NumPy, Matplotlib
--Scikit-learn
+## 📌 Project Overview
+- **Objective**: Forecast NDVI values to monitor vegetation health.
+- **Dataset**: NDVI time-series data for Bapatla district.
+- **Methodology**:
+  - Data preprocessing and feature engineering.
+  - Implementation of machine learning/deep learning models.
+  - Model evaluation using appropriate metrics.
 
-Usage
-Clone the repository and open the Jupyter Notebook:
-  
-Contributions
-Feel free to raise issues or contribute by making a pull request.
+## 🚀 Features
+- **Data Processing**: Cleaning, handling missing values, and visualization.
+- **Forecasting Models**: Utilizes ARIMA, LSTM, or Transformer-based models.
+- **Evaluation Metrics**: Measures performance using RMSE, MAE, and R² score.
+- **Visualization**: Graphs for trend analysis and model predictions.
 
+## 📦 Installation & Requirements
+Ensure you have the following dependencies installed:
+```bash
+pip install numpy pandas matplotlib scikit-learn tensorflow jupyter
 
